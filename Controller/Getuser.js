@@ -1,9 +1,5 @@
 const Usermodel = require("../Model/PostSchema");
 const comment = require("../Model/CommentSchema");
-<<<<<<< HEAD
-
-=======
->>>>>>> e115d42cb6574818acd4acf93f728f9824d9f996
 exports.getbyid = async (req, res) => {
     try {
        const id=req.params.id;
