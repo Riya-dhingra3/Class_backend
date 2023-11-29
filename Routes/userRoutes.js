@@ -13,6 +13,10 @@ router.get("/posts/:id/comments",getbyidc);
 router.post("/post/:id",update);
 router.post("/posts/:id/comments/:id",updatec);
 router.delete("/post/:id",deleteu);
+<<<<<<< HEAD
 router.delete("/posts/:id/comments/:id",deleteuc);
+=======
+router.delete("/posts/:id/comments/:id,deletec);
+>>>>>>> e115d42cb6574818acd4acf93f728f9824d9f996
 
 module.exports=router;

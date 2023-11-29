@@ -5,7 +5,7 @@ app.use(express.json());
 
 // Routes
 const routes=require("./Routes/userRoutes");
-app.use("/",routes);
+app.use("/api",routes);
 
 // Controller
 require("./Middleware/Database");
