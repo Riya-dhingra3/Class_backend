@@ -1,5 +1,5 @@
 const Usermodel=require("../Model/PostSchema");
-const comment=require("../Model/CommentSchema")
+const comment=require("../Model/CommentSchema");
 exports.deleteu=async(req,res)=>{
     try{
         const {id}=req.params;
