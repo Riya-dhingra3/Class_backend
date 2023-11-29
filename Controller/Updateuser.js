@@ -6,8 +6,7 @@ exports.update=async(req,res)=>{
         const{email,phone_no,age}=req.body;
         
         const data=await Usermodel.findByIdAndUpdate(
-            {_id:id},{
-            email:email,phone_no:phone_no,age:age})
+            {_id:id})
 
         res.status(200).json({
             success:true,
